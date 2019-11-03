@@ -105,15 +105,15 @@ const AppTabNavigator = createMaterialTopTabNavigator({
 			)
 		}
 	},
-	// Map: {
-	// 	screen: MapPage,
-	// 	navigationOptions: {
-	// 		tabBarLabel: 'Map',
-	// 		tabBarIcon: ({ tintColor }) => (
-	// 			<Icon name="store-24" size={30} color={tintColor} />
-	// 		)
-	// 	}
-	// },
+	Map: {
+	 	screen: MapPage,
+	 	navigationOptions: {
+	 		tabBarLabel: 'Map',
+	 		tabBarIcon: ({ tintColor }) => (
+	 			<Icon name="list" size={30} color={tintColor} />
+	 		)
+	 	}
+	 },
 },
 	{
 		initialRouteName: 'Camera',
